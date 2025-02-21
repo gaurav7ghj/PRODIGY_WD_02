@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #96839a; /* Updated background color */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper p {
+    color: #f1f3f8;
+    font-size: 48px;
+    background-color: #a04292;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 32px 3px rgba(238, 62, 212, 0.648);
+    margin-bottom: 30px; /* Ensures spacing above buttons */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #a04292;
+    padding: 10px 38px;
+    border: 1px solid #ff1cec;
+    border-radius: 28px;
+    color: #fff;
+    transition: all 0.2s ease;
+    outline: 0;
+    cursor: pointer;
+    margin: 8px 0; /* Adds vertical spacing between buttons */
+}
+
+
+button:hover,
+button:focus {
+    border-color: #c22a7b;
+    color: #c36899;
+    box-shadow: 0px 4px 17px -12px #FF1493;
+}
